@@ -25,3 +25,6 @@ Extra info:
 The coordinates of x and y are configured according to my screen. You need to adjust the x and y coordinates, according to your needs by using the fucntion 
 pyautogui.displayMousePosition()
 The above line, keeps printing the x and y coordinates, as you keep moving your mouse. So use the above function to know the coordinates and adjust it, according to your needs.
+
+How to Schedule Python Script using Windows Scheduler
+https://datatofish.com/python-script-windows-scheduler/

@@ -1,9 +1,9 @@
 import pyautogui
 
 #pyautogui.displayMousePosition()
-button7location = pyautogui.click('chrome_image2.PNG')
+button7location = pyautogui.click('E:/automate_scripts/chrome_image2.PNG')
 
-pyautogui.PAUSE = 1
+pyautogui.PAUSE = 3
 #print(button7location)
 #pyautogui.click('new_tab.PNG')
 pyautogui.keyDown('ctrl')  # hold down the shift key
@@ -75,11 +75,11 @@ pyautogui.click(1798, 216)
 pyautogui.moveTo(330, 424, 3, pyautogui.easeInQuad)     # start slow, end fast
 pyautogui.tripleClick()
 
-pyautogui.typewrite('username\n', 0.0005)
+pyautogui.typewrite('sainikhil013@outlook.com\n', 0.0005)
 
 pyautogui.typewrite('\t', 1)
 #type password in password field
-pyautogui.typewrite('password\n', 0.0005)
+pyautogui.typewrite('Amar@017\n', 0.0005)
 
 pyautogui.PAUSE = 5
 
